@@ -11,5 +11,4 @@ headers = {
     "Accept": "*/*"
 }
 response = requests.get(url, headers=headers, timeout=30)
-print(response.status_code)
 print(response.text)
